@@ -1,20 +1,24 @@
 {
-  "built_at": "2026-09-22T10:53:24.899053+00:00",
+  "built_at": "2026-09-26T06:19:05.261121+00:00",
   "briefs": [
     {
+      "story_id": "7505f9f4c9427d30e7b9",
       "path": "briefs/4cf32882f47d763328ef.html",
       "source_listed_at": "2026-09-03",
       "reviewed_at": "2026-09-22T10:53:07.644778+00:00"
     },
     {
+      "story_id": "5ebf6c0362ad9a2efc66",
       "path": "briefs/2587db9b5eb50061c0d2.html",
       "source_listed_at": "2026-09-01",
       "reviewed_at": "2026-09-22T10:53:03.373413+00:00"
     },
     {
+      "story_id": "afd75e462e88dbc88409",
       "path": "briefs/12789b319290f7abd113.html",
       "source_listed_at": "2026-08-13",
       "reviewed_at": "2026-09-22T10:53:10.516294+00:00"
     }
-  ]
+  ],
+  "retired": []
 }
