@@ -265,7 +265,15 @@ h3 { font-size: 18px; line-height: 1.35; font-weight: 600; letter-spacing: -0.01
 .page-head { padding: 64px 0 40px; max-width: 900px; }
 .page-head h1 { margin: 20px 0 18px; }
 .page-head .text-link { display: inline-block; margin-top: 24px; }
+.page-head .lede + p { margin-top: 14px; color: var(--ink-2); }
 .page-archive .brief-rows { border-top: 1px solid var(--rule); margin-bottom: 72px; }
+.corrections { padding-bottom: 80px; border-top: 1px solid var(--rule); max-width: 900px; }
+.corrections > p { padding-top: 24px; color: var(--ink-2); }
+.correction-log { list-style: none; margin: 0; padding: 0; }
+.correction-log li { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 12px 48px; padding: 24px 0; border-bottom: 1px solid var(--rule); }
+.correction-log li > p { margin: 0; }
+.correction { grid-column: 1; margin: 0; font-size: 14px; line-height: 1.55; color: var(--ink-2); border-left: 2px solid var(--accent-line); padding-left: 12px; }
+@media (max-width: 720px) { .correction-log li { grid-template-columns: 1fr; } }
 .empty {
   margin: 0 0 80px;
   padding: 48px;
